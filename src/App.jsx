@@ -1,14 +1,20 @@
-
-
 import './App.css'
 
 function App() {
-
-
   return (
-    <>
-    <h1>hello mohamed from github actions</h1>
-    </>
+    <div className="app">
+      <div className="card">
+        <h1>🚀 Welcome to Vite + React</h1>
+        <p>
+          A clean, modern UI running inside Docker.
+        </p>
+
+        <div className="actions">
+          <button className="primary">Get Started</button>
+          <button className="secondary">Learn More</button>
+        </div>
+      </div>
+    </div>
   )
 }
 
