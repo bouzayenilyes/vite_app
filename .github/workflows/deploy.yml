@@ -1,4 +1,4 @@
-name: Deploy vit app to vps 
+name: Deploy vite app to vps 
 
 on: 
     push:
