@@ -8,13 +8,12 @@
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
 services:
-  server:
     vite-app:
       build: .
-      container_name:vite_app
+      container_name: vite_app
       ports:
         - "80:80" 
-      restart :always
+      restart : always
 
 
 # The commented out section below is an example of how to define a PostgreSQL
